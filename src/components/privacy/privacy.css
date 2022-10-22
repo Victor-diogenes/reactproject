@@ -1,0 +1,25 @@
+.privacy-content{
+    margin-left: 180px;
+    margin-right: 280px;
+}
+.head1{
+    margin-left: 220px;
+   padding-top: 40px;
+   padding-bottom: 20px;
+}
+.privacy-content > p> .link1{
+    list-style: none;
+    text-decoration: none;
+    color: green;
+}
+.head2{
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+ }
+ footer{
+    background-color: rgb(188, 194, 196);
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

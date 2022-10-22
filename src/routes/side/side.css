@@ -1,0 +1,92 @@
+.navigation1 {
+height: 50px;
+width: 100%;
+background-color: black;
+position: fixed;
+display: flex;
+}
+
+.navigation-menu1 {
+  margin-left: auto;
+}
+
+.navigation-menu1 ul {
+  display: flex;
+  padding: 0;
+}
+.navigation-menu1 li {
+
+  list-style-type: none;
+  margin: 0 1rem;
+}
+.navigation-menu1 li a {
+
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 5px;
+  color: whitesmoke;
+}
+.navigation-menu1 li a:hover{
+  background-color: green;
+}
+.hamburger {
+
+
+
+  background-color: grey;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+
+  display: none;
+  position: sticky;
+ 
+}
+.hamburger:hover {
+  background-color: grey;
+}
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  width: 20%;
+  
+    
+  }
+
+
+
+
+  .navigation-menu1 ul {
+
+    position: absolute;
+    top: 50px;
+    left: 0;
+
+    flex-direction: column;
+
+    width: 100%;
+    height: calc(100vh - 77px);
+    background-color: black;
+    border-top: 1px solid rgb(150, 138, 138);
+  }
+  .navigation-menu1 li {
+  
+    text-align: center;
+    margin: 0;
+  }
+  .navigation-menu1 li a {
+    color: white;
+  
+    width: 100%;
+    padding: 1.5rem 0;
+  }
+  .navigation-menu1 li:hover {
+    background-color: #eee;
+  }
+  .navigation-menu1 ul {
+    display: none;
+  }
+  .navigation-menu1.expanded ul {
+    display: block;
+  }
+}

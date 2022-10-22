@@ -1,0 +1,40 @@
+*{
+ 
+  list-style: none;
+  text-decoration: none;
+}
+#link > .link > .done{
+  color: brown;
+}
+.logo{
+  height: 60px;
+  width: 13vh;
+  border: 3px green solid;
+  border-radius: 50px;
+
+}
+.v{
+  color: green;
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.m{
+  color: red;
+  font-size: 20px;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.t{
+  font-size: 15px;
+  font-weight: 300;
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: purple;
+}

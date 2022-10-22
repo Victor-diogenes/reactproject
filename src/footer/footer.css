@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+footer{
+
+    background-color: rgb(188, 194, 196);
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

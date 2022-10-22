@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+.section1 > div >img{
+    float: right;
+    height: 90px;
+    width: 15vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.main{
+ margin-left: 180px;
+ margin-right: 300px;
+
+}
+.module-link{
+  display: flex;
+  flex-direction: column;
+margin-left: 50px;
+}
+
+  @media only screen and (max-width: 960px) {
+    .section1 > div >img{
+        
+        display: none;
+    }
+    .main{
+     margin: 0;
+    }
+ 
+  }
+  

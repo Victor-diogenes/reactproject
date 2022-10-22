@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+
+.variables{
+  margin-top: 50px;
+  margin-left: 180px;
+  margin-right: 300px;
+  
+        background-color: #fff;
+        box-shadow: var(--shadow);
+}
+
+.block{
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+.button4{
+  margin-left: 570px;
+  margin-top: 150px;
+  background-color: green;
+  color: white;
+  border: 1px green   solid ;
+  border-radius: 10px;
+  height: 50px;
+  
+}
+
+.upbutton4{
+  margin-left: 570px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  background-color: green;
+  color: white;
+  border: 1px green   solid ;
+  border-radius: 10px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .variables{
+  margin-top: 50px;
+  margin-left: 0;
+margin-right: 0;
+  }
+ 
+}
+@media screen and (max-witdh: 400px){
+.variables{
+  margin-top: 50px;
+  margin-left: 0;
+margin-right: 0;
+}
+}

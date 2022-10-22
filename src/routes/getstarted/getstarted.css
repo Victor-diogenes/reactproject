@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap');
+
+.introduction{
+    background-color: #fff;
+    box-shadow: var(--shadow);
+    margin-left: 180px;
+    margin-right: 300px;
+    margin-top: 50px;
+     
+   
+}
+.introduction > div > p,h1,h3,h5,span{
+    text-align: left;
+}
+.introduction > div > .textbox{
+  background-color: grey;
+  color: whitesmoke;
+  display: flex;
+
+}
+.introduction > div > form {
+    padding: 12px;
+    display: flex;
+    justify-content: left;
+   
+
+}
+.introduction > div > .textbox2{
+    background-color: grey;
+    color: whitesmoke;
+    display: flex;
+    width: 45vh;
+    height: 15vh;
+  
+  }
+  .code{
+    background-color: grey;
+    color: white;
+    width: 50%;
+  }
+
+  .code > .blockcode2{
+    text-indent: 20px;
+  }
+
+  .head5{
+    font-size: 22px;
+  }
+ .next{
+ display: flex;
+ margin-left: auto;
+  color:white;
+  background-color: green;
+  border: 1px green solid;
+  border-radius: 5px;
+ }
+ 
+  @media screen and (max-width: 768px) {
+  .introduction{
+margin-top: 50px;
+margin-left: 0;
+margin-right: 0;
+}
+
+
+  }
+@media screen and (max-width: 400px) {
+  
+}
